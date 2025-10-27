@@ -1,68 +1,75 @@
+# 🔧 Proyecto de Diagnóstico Técnico – Frank Soto
 
-# 🔧 Proyecto de Diagnóstico Técnico – Frank Soto  
-### 🧠 Prueba realizada en entorno real con fines de análisis y optimización de rendimiento  
+🧠 **Prueba realizada en entorno real con fines de análisis y optimización de rendimiento.**  
 **Test performed in a real environment, for performance analysis and optimization purposes.**
 
 ---
 
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu%2024.04-orange)
-![CPU](https://img.shields.io/badge/CPU-Intel%20Core%20i5-blue)
+![CPU](https://img.shields.io/badge/CPU-Intel%20Core%20i7-blue)
 ![GPU](https://img.shields.io/badge/GPU-Intel%20HD%20Graphics%203000-lightgrey)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-En%20Pruebas-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-En%20Pruebas-yellow)
 
 ---
 
-## 🧩 Descripción / Description  
+## 🧾 Descripción / Description
 
 ### 🇪🇸 Español  
-Este proyecto documenta un análisis técnico completo realizado sobre una laptop **Toshiba Satellite C875**,  
-utilizando **Ubuntu Linux 24.04 LTS** como entorno de pruebas.  
-El objetivo es evaluar el rendimiento del sistema en diferentes áreas: CPU, memoria, gráficos y estabilidad,  
-empleando herramientas nativas y de código abierto.
+Este proyecto documenta un **análisis técnico completo** realizado sobre una laptop **Toshiba Satellite C875**, utilizando **Ubuntu Linux 24.04 LTS** como entorno de pruebas.  
+El objetivo es evaluar el rendimiento del sistema en diferentes áreas: **CPU, memoria, gráficos y estabilidad**, empleando herramientas nativas y de código abierto.  
 
-### 🇬🇧 English  
-This project documents a complete technical diagnostic performed on a **Toshiba Satellite C875** laptop,  
-using **Ubuntu Linux 24.04 LTS** as the testing environment.  
-The goal is to evaluate system performance in CPU, memory, graphics, and stability,  
-using native and open-source benchmarking tools.
+Incluye:
+- Script de diagnóstico automatizado (`diagnostico_frank.sh`)
+- Pruebas de rendimiento con `glmark2`, `sysbench`, y `stress-ng`
+- Resultados reales obtenidos directamente del sistema bajo uso activo
+- Archivos y documentación bilingüe (Español / Inglés)
 
 ---
 
-## ⚙️ Herramientas de Diagnóstico / Diagnostic Tools  
+### 🇺🇸 English  
+This project documents a **complete technical diagnostic** performed on a **Toshiba Satellite C875 laptop**, using **Ubuntu Linux 24.04 LTS** as the testing environment.  
+The goal is to evaluate the system’s performance in various areas — **CPU, memory, graphics, and stability** — using native and open-source benchmarking tools.
 
-- 🧮 **glmark2** → GPU and OpenGL benchmark  
-- ⚡ **sysbench** → CPU and memory speed tests  
-- 💾 **Caffeine & Systemctl** → Power management optimization  
-- 🧰 **Mesa Drivers (Intel)** → Open-source graphics stack  
-- 🧍 **Real User Test Environment** → Conducted in live session  
-
----
-
-## 📊 Resultados Clave / Key Results  
-
-| Prueba / Test | Resultado / Result | Descripción / Description |
-|---------------|-------------------|---------------------------|
-| **glmark2** | `988 points` | GPU OpenGL benchmark |
-| **sysbench CPU** | `2734 events/sec` | CPU multithread performance |
-| **sysbench memory** | `16131 MiB/sec` | Memory write throughput |
-| **Temperatura y estabilidad** | ✅ Estable | Sistema se mantiene estable durante carga alta |
+Includes:
+- Automated diagnostic script (`diagnostico_frank.sh`)
+- Performance tests with `glmark2`, `sysbench`, and `stress-ng`
+- Real-world results obtained under active system load
+- Bilingual documentation (Spanish / English)
 
 ---
 
-## 🧾 Licencia / License  
+## 🧪 Herramientas empleadas / Tools used
 
-Este proyecto está licenciado bajo la **MIT License**.  
-Consulta el archivo [LICENSE.txt](./LICENSE.txt) para más información.  
-
----
-
-## 👤 Autor / Author  
-
-**Frank Soto**  
-🌐 GitHub: [fcost72](https://github.com/fcost72)
+| Tipo / Type | Herramienta / Tool | Descripción / Description |
+|--------------|--------------------|----------------------------|
+| CPU Test | `sysbench` | Evalúa la capacidad de procesamiento de la CPU |
+| GPU Test | `glmark2` | Mide el rendimiento gráfico en OpenGL |
+| RAM Test | `stress-ng` | Verifica estabilidad y velocidad de la memoria |
+| Reporte automático | `diagnostico_frank.sh` | Genera resultados detallados del sistema |
 
 ---
 
-> “El conocimiento técnico real se demuestra en el campo de pruebas.”  
-> *— Proyecto de Diagnóstico Técnico – 2025*
+## 💾 Hardware
+
+- **Equipo:** Toshiba Satellite C875  
+- **Procesador:** Intel Core i7  
+- **Gráficos:** Intel HD Graphics 3000  
+- **Memoria RAM:** 8 GB DDR3  
+- **Sistema operativo:** Ubuntu 24.04 LTS 64-bit  
+
+---
+
+## 📜 Licencia / License
+
+Este proyecto está bajo la licencia **MIT**.  
+Consulta el archivo [LICENSE.txt](LICENSE.txt) para más detalles.
+
+This project is licensed under the **MIT License**.  
+See [LICENSE.txt](LICENSE.txt) for more information.
+
+---
+
+📘 **Proyecto publicado en GitHub con fines de documentación técnica y educativa.**  
+📗 **Project published on GitHub for technical and educational documentation purposes.**
+
