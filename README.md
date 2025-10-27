@@ -1,71 +1,68 @@
-# 🔧 Proyecto de Diagnóstico Técnico – Frank Soto
 
-**Prueba realizada en entorno real, con fines de análisis y optimización de rendimiento.**  
+# 🔧 Proyecto de Diagnóstico Técnico – Frank Soto  
+### 🧠 Prueba realizada en entorno real con fines de análisis y optimización de rendimiento  
 **Test performed in a real environment, for performance analysis and optimization purposes.**
 
 ---
 
-## 📘 Descripción / Description
-
-**Español:**  
-Este proyecto documenta un análisis técnico completo realizado sobre una laptop **Toshiba Satellite C875-S7344**, equipada con **Intel Core i7**, **16 GB RAM** y **SSD de 1 TB**, utilizando el sistema operativo **Ubuntu 24.04.3 LTS**.  
-El objetivo es medir el rendimiento, estabilidad y comportamiento térmico del sistema, así como evaluar la interacción entre el hardware y el kernel de Linux.
-
-**English:**  
-This project documents a complete technical analysis performed on a **Toshiba Satellite C875-S7344 laptop**, powered by **Intel Core i7**, **16 GB RAM**, and a **1 TB SSD**, using **Ubuntu 24.04.3 LTS**.  
-The goal is to measure system performance, stability, and thermal behavior, and to evaluate hardware–kernel interaction under Linux.
+![Linux](https://img.shields.io/badge/Linux-Ubuntu%2024.04-orange)
+![CPU](https://img.shields.io/badge/CPU-Intel%20Core%20i5-blue)
+![GPU](https://img.shields.io/badge/GPU-Intel%20HD%20Graphics%203000-lightgrey)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-En%20Pruebas-blueviolet)
 
 ---
 
-## ⚙️ Herramientas utilizadas / Tools Used
+## 🧩 Descripción / Description  
 
-| Tipo / Type | Herramienta / Tool | Descripción / Description |
-|--------------|--------------------|----------------------------|
-| Análisis del sistema | `htop`, `vtop`, `neofetch` | Monitoreo de CPU, RAM y kernel |
-| Diagnóstico general | `hardinfo`, `inxi` | Información detallada del hardware |
-| Rendimiento | `stress-ng`, `sysbench` | Pruebas de carga del sistema |
-| Control de energía | `powertop`, `caffeine` | Optimización del consumo energético |
-| Documentación | `gedit`, `nano` | Registro de resultados y observaciones |
+### 🇪🇸 Español  
+Este proyecto documenta un análisis técnico completo realizado sobre una laptop **Toshiba Satellite C875**,  
+utilizando **Ubuntu Linux 24.04 LTS** como entorno de pruebas.  
+El objetivo es evaluar el rendimiento del sistema en diferentes áreas: CPU, memoria, gráficos y estabilidad,  
+empleando herramientas nativas y de código abierto.
 
----
-
-## 🧩 Resultados / Results
-
-Los resultados incluyen información sobre:
-- Consumo de CPU y memoria  
-- Temperaturas promedio del sistema  
-- Estabilidad durante pruebas prolongadas  
-- Evaluación de rendimiento general en entorno real  
-
-> 📄 *Toda la documentación se encuentra dentro del archivo ZIP:*  
-> `Proyecto_Diagnostico_FrankSoto_Bilingue.zip`
+### 🇬🇧 English  
+This project documents a complete technical diagnostic performed on a **Toshiba Satellite C875** laptop,  
+using **Ubuntu Linux 24.04 LTS** as the testing environment.  
+The goal is to evaluate system performance in CPU, memory, graphics, and stability,  
+using native and open-source benchmarking tools.
 
 ---
 
-## 🧰 Especificaciones del sistema / System Specs
+## ⚙️ Herramientas de Diagnóstico / Diagnostic Tools  
 
-- **Modelo:** Toshiba Satellite C875-S7344  
-- **CPU:** Intel Core i7  
-- **RAM:** 16 GB DDR3  
-- **Disco:** SSD 1 TB  
-- **Sistema Operativo:** Ubuntu 24.04.3 LTS  
-- **Kernel:** Linux 6.14.x  
-- **Entorno de escritorio:** GNOME  
+- 🧮 **glmark2** → GPU and OpenGL benchmark  
+- ⚡ **sysbench** → CPU and memory speed tests  
+- 💾 **Caffeine & Systemctl** → Power management optimization  
+- 🧰 **Mesa Drivers (Intel)** → Open-source graphics stack  
+- 🧍 **Real User Test Environment** → Conducted in live session  
 
 ---
 
-## 🌐 Contacto / Contact
+## 📊 Resultados Clave / Key Results  
 
-📧 **Email:** 1972sotof@gmail.com  
-🧑‍💻 **Autor / Author:** Frank Soto  
-📅 **Año / Year:** 2025  
+| Prueba / Test | Resultado / Result | Descripción / Description |
+|---------------|-------------------|---------------------------|
+| **glmark2** | `988 points` | GPU OpenGL benchmark |
+| **sysbench CPU** | `2734 events/sec` | CPU multithread performance |
+| **sysbench memory** | `16131 MiB/sec` | Memory write throughput |
+| **Temperatura y estabilidad** | ✅ Estable | Sistema se mantiene estable durante carga alta |
 
 ---
 
-## ⚖️ Licencia / License
+## 🧾 Licencia / License  
 
-Este proyecto está bajo la licencia **MIT License**.  
-Consulta el archivo `LICENSE.txt` para más detalles.  
+Este proyecto está licenciado bajo la **MIT License**.  
+Consulta el archivo [LICENSE.txt](./LICENSE.txt) para más información.  
 
-**© 2025 Frank Soto — Todos los derechos reservados / All rights reserved.**
+---
 
+## 👤 Autor / Author  
+
+**Frank Soto**  
+🌐 GitHub: [fcost72](https://github.com/fcost72)
+
+---
+
+> “El conocimiento técnico real se demuestra en el campo de pruebas.”  
+> *— Proyecto de Diagnóstico Técnico – 2025*
