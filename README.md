@@ -5,14 +5,18 @@
 
 ---
 
-![Linux](https://img.shields.io/badge/Linux-Ubuntu%2024.04-orange)
-![CPU](https://img.shields.io/badge/CPU-Intel%20Core%20i7-blue)
-![GPU](https://img.shields.io/badge/GPU-Intel%20HD%20Graphics%203000-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-En%20Pruebas-yellow)
-![Release](https://img.shields.io/github/v/release/fcost72/diagnostico-tecnico-toshiba-c875?color=blue&label=Versión&style=for-the-badge)](https://github.com/fcost72/diagnostico-tecnico-toshiba-c875/releases)
+[![Linux](https://img.shields.io/badge/Linux-Ubuntu%2024.04%20LTS-orange?logo=ubuntu&style=for-the-badge)]()
+[![CPU](https://img.shields.io/badge/CPU-Intel%20Core%20i7-blue?logo=intel&style=for-the-badge)]()
+[![GPU](https://img.shields.io/badge/GPU-Intel%20HD%203000-lightgrey?logo=intel&style=for-the-badge)]()
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-En%20Pruebas%20%2F%20Under%20Testing-yellow?style=for-the-badge)]()
+[![Release](https://img.shields.io/github/v/release/fcost72/diagnostico-tecnico-toshiba-c875?color=blue&label=Versi%C3%B3n&style=for-the-badge)](https://github.com/fcost72/diagnostico-tecnico-toshiba-c875/releases)
 
----
+
+
+
+
+
 
 ## 🧾 Descripción / Description
 
