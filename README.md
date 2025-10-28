@@ -10,6 +10,7 @@
 ![GPU](https://img.shields.io/badge/GPU-Intel%20HD%20Graphics%203000-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-En%20Pruebas-yellow)
+![Release](https://img.shields.io/github/v/release/fcost72/diagnostico-tecnico-toshiba-c875?color=blue&label=Versión&style=for-the-badge)](https://github.com/fcost72/diagnostico-tecnico-toshiba-c875/releases)
 
 ---
 
